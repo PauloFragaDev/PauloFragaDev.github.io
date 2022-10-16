@@ -2,7 +2,7 @@
 
 _Portfolio Paulo Fraga_
 
-![Image text](https://github.com/PauloFragaDev.github.io/assets/ssPortfolio.png)
+![Image text](https://github.com/PauloFragaDev/PauloFragaDev.github.io/blob/master/assets/img/ssPortfolio.png)
 
 ## Tecnologias
 
