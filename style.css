@@ -1,0 +1,119 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    background-color: #181A1B;
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*Navbar Styles*/
+.w3-navbar { color: ghostwhite; }
+.w3-navbar { background-color: rgba(0, 0, 0, 0.75);}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background: url(assets/background/3416fc4113b69a0bf1cc75a772c4b5c4.gif);
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url(assets/background/28.jpg);
+  min-height: 400px;
+}
+
+/* Third image (Portfolio) */
+.bgimg-3 {
+  background-image: url(assets/background/09.jpg);
+  min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+    background-image: url(assets/background/15.jpg);
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+/* About Section */
+#about {
+  font-size: 1.4em;
+}
+
+#aboutSkills{
+  font-size: 1.1em;
+}
+
+/* Skills Section */
+
+
+/* Clearfix Hack */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* Social Media Icons */
+.w3-half > a {
+  text-decoration: none;
+}
+
+i.fa {
+  padding-top: .2em;
+  padding-left: .5em;
+  padding-right: .5em;
+  transition: color 0.25s;
+}
+
+.fa-github:hover {
+  color: rgb(255, 196, 0);
+}
+
+.fa-inbox:hover{
+  color:rgb(17, 226, 97);
+}
+
+.fa-linkedin:hover {
+  color: #4af;
+}
+
+.fa-youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+#profile { vertical-align: middle; }

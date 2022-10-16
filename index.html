@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>P.F - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/icon.png">
+  <link rel='stylesheet' href='https://www.w3schools.com/lib/w3.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+
+<body class="prueba">
+  <div class="w3-top">
+    <ul class="w3-navbar" id="myNavbar">
+      <li><a href="#" class="w3-padding-large">Paulo F.</a></li>
+      <li class="w3-hide-small w3-right">
+        <a href="#contact" class="w3-padding-large">Contact</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#skills" class="w3-padding-large">Skills</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#about" class="w3-padding-large">About</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-opacity w3-display-container">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity"> PAULO <span
+          class="w3-hide-small">FRAGA</span></h1>
+    </div>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h2 class="w3-center">ABOUT ME</h2>
+    <p class="w3-center"><em>プログラミングが好き</em></p>
+    <p>Hello I am Paulo Fraga, I am a junior software developer with a passion for developing innovative programs that
+      expedite the efficiency and effectiveness of organizational success. Skilled leader who has the proven ability to
+      motivate, educate, and manage a team to build software programs and effectively track changes. Confident
+      communicator, strategic thinker, and innovative creator to develop software that is customized.
+    </p>
+    <!--  Profile Picture and Description  -->
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-section">
+        <img src="assets/img/Yo256x.png" id="profile" class="w3-circle" alt="Photo of Me">
+      </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-section">
+        <p>When you finish a challenge, another begins.
+          <br>We always have challenges to do.
+          <br> 日 P.F 雨
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Parallax Image with Skills Text -->
+  <div class="bgimg-2 w3-display-container" id="skills">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">Skills</span>
+    </div>
+  </div>
+  <!-- Container (Skills Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="aboutSkills">
+    <div class="">
+      <p>
+        <br> Currently my main focus lies on deepen my knowledge in:
+        <b>
+          <ul style="list-style-type: circle; padding-left: 20px;">
+            <li>HTML, CSS, JavaScript</li>
+            <li>PHP</li>
+          </ul>
+        </b>
+        <br> Also some basic knowledge in:
+        <b>
+          <ul style="list-style-type: circle; padding-left: 20px;">
+            <li>Java</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>Networking</li>
+          </ul>
+        </b>
+        <br> On the future I want to focus on learn languages for game development. <br>
+        <br> Languages:
+        <b>
+          <ul style="list-style-type: circle; padding-left: 20px;">
+            <li>English</li>
+            <li>Spanish</li>
+            <li>Catalan</li>
+          </ul>
+        </b>
+      </p>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container" id="portfolio">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-light-grey w3-wide">PORTFOLIO</span>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-container w3-padding-64">
+    <h2 class="w3-center">MY WORK</h2>
+    <p class="w3-center"><em>Here are some of my latest projects.<br> Click on the images to make them bigger</em></p>
+    <br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="https://unsplash.it/400/300?random" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://unsplash.it/400/301?random" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://unsplash.it/400/302?random" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://unsplash.it/400/303?random" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity">
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" style="max-width:100%">
+    </div>
+  </div>
+
+  <!-- Fourth Parallax Image with Portfolio Text -->
+  <div class="bgimg-4 w3-display-container" id="contact">
+    <div class="w3-display-middle">
+      <h2 class="w3-xxlarge w3-text-white w3-wide">CONTACT</h2>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64">
+    <h3 class="w3-center">WHERE I STUDY & WORK</h3>
+    <div class="w3-col m8 w3-container w3-section">
+      <div class="w3-large  w3-margin-bottom">
+        <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i>Location: Barcelona City, Catalonia,
+        Spain<br>
+        <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: +34 <br>
+        <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: paulo.f.developer@gmail.com<br>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-48 cf">
+    <div class="w3-half">
+      <a target="_blank" href="https://github.com/PauloFragaDev">
+        <i class="fa fa-github fa-2x"></i>
+      </a>
+      <a target="_blank" href="mailto:paulo.f.developer@gmail.com">
+        <i class="fa fa-inbox fa-2x"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/paulofragadev">
+        <i class="fa fa-linkedin fa-2x"></i>
+      </a>
+      <a target="_blank" href="">
+        <i class="fa fa-youtube fa-2x"></i>
+      </a>
+    </div>
+    <p class="w3-half">COPYRIGHT © 2022 PAULO FRAGA</p>
+  </footer>
+  <!-- partial -->
+</body>
+
+</html>
