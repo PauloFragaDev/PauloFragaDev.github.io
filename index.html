@@ -12,21 +12,21 @@
   <script src="./script.js"></script>
 </head>
 
-<body class="prueba">
+<body>
   <div class="w3-top">
     <ul class="w3-navbar" id="myNavbar">
-      <li><a href="#" class="w3-padding-large">Paulo F.</a></li>
+      <li><a href="#" class="w3-padding-large w3-text-white">Paulo F.</a></li>
       <li class="w3-hide-small w3-right">
-        <a href="#contact" class="w3-padding-large">Contact</a>
+        <a href="#contact" class="w3-padding-large w3-text-white">Contact</a>
       </li>
       <li class="w3-hide-small w3-right">
-        <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+        <a href="#portfolio" class="w3-padding-large w3-text-white">Portfolio</a>
       </li>
       <li class="w3-hide-small w3-right">
-        <a href="#skills" class="w3-padding-large">Skills</a>
+        <a href="#skills" class="w3-padding-large w3-text-white">Skills</a>
       </li>
       <li class="w3-hide-small w3-right">
-        <a href="#about" class="w3-padding-large">About</a>
+        <a href="#about" class="w3-padding-large w3-text-white">About</a>
       </li>
     </ul>
   </div>
@@ -56,9 +56,9 @@
 
       <!-- Hide this text on small devices -->
       <div class="w3-col m6 w3-hide-small w3-section">
-        <p>When you finish a challenge, another begins.
-          <br>We always have challenges to do.
-          <br> 日 P.F 雨
+        <p>"When you finish a challenge, another begins.
+          <br>We always have challenges to do."
+          <br> - 日 P.F 雨
         </p>
       </div>
     </div>
@@ -74,14 +74,14 @@
   <div class="w3-content w3-container w3-padding-64" id="aboutSkills">
     <div class="">
       <p>
-        <br> Currently my main focus lies on deepen my knowledge in:
+        <br> Currently focusing on learning:
         <b>
           <ul style="list-style-type: circle; padding-left: 20px;">
             <li>HTML, CSS, JavaScript</li>
             <li>PHP</li>
           </ul>
         </b>
-        <br> Also some basic knowledge in:
+        <br> Basic knowledge in:
         <b>
           <ul style="list-style-type: circle; padding-left: 20px;">
             <li>Java</li>
@@ -90,13 +90,13 @@
             <li>Networking</li>
           </ul>
         </b>
-        <br> On the future I want to focus on learn languages for game development. <br>
+        <br> Interested in learning programming languages that will be useful for game development. <br>
         <br> Languages:
         <b>
           <ul style="list-style-type: circle; padding-left: 20px;">
-            <li>English</li>
-            <li>Spanish</li>
-            <li>Catalan</li>
+            <li>Spanish - ★★★★★</li>
+            <li>Catalan - ★★★★☆</li>
+            <li>English - ★★★☆☆</li>
           </ul>
         </b>
       </p>
@@ -115,29 +115,44 @@
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container w3-padding-64">
     <h2 class="w3-center">MY WORK</h2>
-    <p class="w3-center"><em>Here are some of my latest projects.<br> Click on the images to make them bigger</em></p>
+    <p class="w3-center"><em>Here are some of my latest projects.<br> Click on the images to redirect to each
+        repository</em>
+    </p>
     <br>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
       <div class="w3-col m3">
-        <img src="https://unsplash.it/400/300?random" style="width:100%" onclick="onClick(this)"
-          class="w3-hover-opacity">
+        <a href="https://github.com/PauloFragaDev/SampleAnimeWebSite.git" target="_blank">
+          <img srcset="https://raw.githubusercontent.com/PauloFragaDev/SampleAnimeWebSite/main/AssetMD/Menu.png"
+            onclick='' style="width:216px;height: 163px;" class="w3-hover-opacity">
+        </a>
+        <p class="w3-center w3-text-white"><em>Mix Netflix & Crunchyroll</em></p>
       </div>
 
       <div class="w3-col m3">
-        <img src="https://unsplash.it/400/301?random" style="width:100%" onclick="onClick(this)"
-          class="w3-hover-opacity">
+        <a href="https://github.com/PauloFragaDev/ProjectJavaFx.git" target="_blank">
+          <img srcset="https://raw.githubusercontent.com/PauloFragaDev/ProjectJavaFx/main/AssetMD/Login.png"
+            style="width:216px;height: 163px;" class="w3-hover-opacity">
+        </a>
+        <p class="w3-center w3-text-white"><em>Management application for amusement park</em></p>
       </div>
 
       <div class="w3-col m3">
-        <img src="https://unsplash.it/400/302?random" style="width:100%" onclick="onClick(this)"
-          class="w3-hover-opacity">
+        <a href="https://github.com/PauloFragaDev/ProcessingProjects.git" target="_blank">
+          <img
+            srcset="https://github.com/PauloFragaDev/ProcessingProjects/blob/main/AssetMD/GIF%2020-10-2022%2013-25-37.gif?raw=true"
+            style="width:216px;height: 163px;" class="w3-hover-opacity">
+        </a>
+        <p class="w3-center w3-text-white"><em>Processing Projects</em></p>
       </div>
-
       <div class="w3-col m3">
-        <img src="https://unsplash.it/400/303?random" style="width:100%" onclick="onClick(this)"
-          class="w3-hover-opacity">
+        <a href="https://github.com/PauloFragaDev/ManagementElectronicShop.git" target="_blank">
+          <img
+            srcset="https://github.com/PauloFragaDev/ManagementElectronicShop/blob/main/AssetMD/Interface.png?raw=true"
+            style="width:216px;height: 163px;" class="w3-hover-opacity">
+        </a>
+        <p class="w3-center w3-text-white"><em>Management application for electronic shop</em></p>
       </div>
     </div>
   </div>
@@ -164,7 +179,7 @@
       <div class="w3-large  w3-margin-bottom">
         <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i>Location: Barcelona City, Catalonia,
         Spain<br>
-        <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: +34 <br>
+        <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: +34 689 71 26 94 <br>
         <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: paulo.f.developer@gmail.com<br>
       </div>
     </div>
@@ -182,9 +197,11 @@
       <a target="_blank" href="https://www.linkedin.com/in/paulofragadev">
         <i class="fa fa-linkedin fa-2x"></i>
       </a>
+      <!--
       <a target="_blank" href="">
         <i class="fa fa-youtube fa-2x"></i>
       </a>
+      -->
     </div>
     <p class="w3-half">COPYRIGHT © 2022 PAULO FRAGA</p>
   </footer>
